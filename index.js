@@ -7,10 +7,7 @@ require('./startup/db')()
 
 routes(app)
 
-
 const PORT = 8080
-
-console.log(PORT)
 
 const server = app.listen(PORT, () => console.log(`Listening on port ${PORT}`))
 
